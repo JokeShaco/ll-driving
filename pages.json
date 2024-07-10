@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"background": "#F2F2F2",
+					"animationType": "slide-in-right",
+					"animationDuration": 500,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"background": "#F2F2F2",
+					"animationType": "slide-in-right",
+					"animationDuration": 500,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"background": "#F2F2F2",
+					"animationType": "slide-in-right",
+					"animationDuration": 500,
+					"bounce": "none"
+				}
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#333333",
+		"borderStyle": "white",
+		"backgroundColor": "white",
+		"height": "56px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"midButton": {
+			"width": "82px",
+			"height": "72px",
+			// "iconPath": "static/image/sell.png",
+			"iconWidth": "78px"
+		},
+		"list": [{
+				"pagePath": "pages/map/map",
+				"text": "开干"
+				// "iconPath": "static/image/home.png",
+				// "selectedIconPath": "static/image/homeAct.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的"
+				// "iconPath": "static/image/buy.png",
+				// "selectedIconPath": "static/image/buyAct.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
